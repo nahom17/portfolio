@@ -63,7 +63,8 @@ nav ul li a{
 /* this white color shows when the mouse hover over the link */
 a :hover {
 
-    background-color:green;
+    background-color:white;
+	font-size:30px;
 
 }
 a :focus{
@@ -74,7 +75,8 @@ a :visited{
 }
 /* this white color shows when the mouse active over the link */
  a :active{
-    background-color:blue;
+    background-color:black;
+	 font-size:30px;
 }
  /* home style*/
 #hello{
