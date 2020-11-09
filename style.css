@@ -161,11 +161,16 @@ footer{
   
 }
 /* this style for images which use for social media links */
-footer img {
+/*footer img {
     margin: 0;
     width: 4%;
 }
- 
+ */
+i{
+	margin:2%;
+	font-size:15px;
+	
+}
 
 
 .about_me h3{
