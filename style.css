@@ -123,6 +123,9 @@ a :visited{
     border-radius:7px ;
 
 }
+section{
+	 text-align: center;
+}
 .introduction-section,
 .location-section,
 .questions-section {
