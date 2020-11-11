@@ -61,20 +61,20 @@ nav ul li a{
 	*/
 }
 /* this white color shows when the mouse hover over the link */
-a :hover {
+nav ul li a :hover {
 
-    background-color:white;
+    background-color:yellow;
 	font-size:30px;
 
 }
-a :focus{
+nav ul li a :focus{
     background-color:red;
 }
-a :visited{
+nav ul li a :visited{
    background-color:yellow;
 }
 /* this white color shows when the mouse active over the link */
- a :active{
+ nav ul li a :active{
     background-color:black;
 	 font-size:30px;
 }
