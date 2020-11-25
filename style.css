@@ -120,7 +120,7 @@ a :visited{
     border-radius: 7pc;
     background-color: rgb(17, 2, 102);
 }
-#My_CV a{
+/*#My_CV a{
     color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: right;
@@ -130,7 +130,7 @@ a :visited{
     border: 3px solid gold;
     border-radius: 70pc;
     background-color:rgb(17, 2,102);
-}
+}*/
 
 /*style for skills*/
 .gallery {
