@@ -11,24 +11,44 @@ html{
 p h1 h2 h3 h4{
     text-rendering: optimizeLegibility;
 }
+body{
+	margin:0;
+}
 
 
 
 
 
 
-nav{
-    width: 100%;
+ hedaer nav{
+    width: 100vw;
+    background-color: #D6EFFF;
+	 
+}
+a{
+  text-decoration: none;
+	color:black;
+	padding:2vw;
+	font-family:monospace;
+}
+li{
+  list-style-type: none;
+	margin:0 2vw;
+	font-size:3vh;
 }
 /* to determine the position of nav bar*/
-nav ul{
-    text-align: center;
-    margin:0 0 0 0;
-    padding-right:0;
+ ul{
+    
+    margin:0;
+    padding:0;
+    display:flex;
     
 }
+button{
+	display:none;
+}
 
-nav ul li{
+ header nav ul li{
     width: 50%;
     color:black;
     display:contents;
@@ -58,9 +78,9 @@ nav ul li a{
 	*/
 }
 /* this white color shows when the mouse hover over the link */
- a :hover {
+ a:hover {
 
-    color:yellow;
+    background-color:#C6E9FF;
 	
 
 }
@@ -335,6 +355,38 @@ i{
                    
 				
 				}
+@media only screen and (max-width: 500px) {
+  /*shows elements in a column*/
+  ul{
+    flex-direction: column;
+  }
+  
+  /* deletes margin on top or bottom of the a tag*/
+  li{
+    margin: 0;
+  }
+ /* makes sure that the a tag will take the entire screen*/
+  a{
+    display: block;
+  }
+	button{
+    /*makes the button visible*/
+    display: block;
+		cursor:pointer;
+		align-self:flex-start;
+    
+    /*since we are here, we can style it a little bit!*/
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: #AFE0FF;
+    border: none;
+    
+    /*outline none removes the default blue border that appears anytime you click on the button*/
+    outline: none;
+    
+    cursor: pointer;
+  }
+}
 
 
 
