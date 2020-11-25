@@ -252,7 +252,7 @@ form{
     
 /* styling for the footer */
 footer{
-  position:fixed;
+  position:relative;
   bottom: 0;
   right: 0;
   left: 0;
@@ -260,8 +260,8 @@ footer{
   float: left;
   text-align: center;
   width: 100%;
-  padding-top: 5px;
-    padding-bottom: 10px;
+  padding-top: 2px;
+    padding-bottom: 5px;
     /* this linear-gradient can help us to mixes different colors */
   background: linear-gradient(to right , green,red,yellow,red,blue);
 
@@ -328,7 +328,7 @@ i{
         float: left;
         text-align: center;
         width: 100%;
-        padding-top: 5px;
+        padding-top: 2px;
         padding-bottom: 5px;
         background: linear-gradient(to right , green,red,yellow,red,blue);
 	}
