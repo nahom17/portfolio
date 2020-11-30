@@ -44,9 +44,9 @@ li{
     display:flex;
     
 }
-button{
+/*button{
 	display:none;
-}
+}*/
 
  header nav ul li{
     width: 50%;
