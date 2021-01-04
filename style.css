@@ -84,14 +84,14 @@ nav ul li a{
 	
 
 }
- a :focus{
+ a:focus{
     background-color:red;
 }
-a :visited{
+a:visited{
    color:yellow;
 }
 /* this white color shows when the mouse active over the link */
- a :active{
+ a:active{
     background-color:black;
 	 font-size:30px;
 }
