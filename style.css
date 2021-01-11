@@ -406,6 +406,27 @@ p{
         font-weight: 100;
         position: relative;
     }
+	.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 10px 0;
+    color: white;
+    padding-left:20%;
+}
+ .col-2 p{
+    color: white;
+    padding-left:20%;
+
+}
+.btn{
+    display: inline-block;
+    background: #30a313;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px;
+    padding-left:20%;
+    border-radius: 30px;
+}
     form{
         width:80%;
         margin: 10% auto;
@@ -506,6 +527,27 @@ p{
         font-weight: 100;
         position: relative;
     }
+	.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 10px 0;
+    color: white;
+    padding-left:20%;
+}
+ .col-2 p{
+    color: white;
+    padding-left:20%;
+
+}
+.btn{
+    display: inline-block;
+    background: #30a313;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px;
+    padding-left:20%;
+    border-radius: 30px;
+}
     form{
         width:80%;
         margin: 10% auto;
