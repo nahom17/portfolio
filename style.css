@@ -100,7 +100,7 @@ header  ul li{
 
 .masthead {
    padding: 6em 0;
-   background-image: url('https://www.freepik.com/free-vector/programmers-develop-program-platforms-cross-platform-programming-cross-platform-development-structure-concept-white-background-bright-vibrant-violet-isolated-illustration_10780396.htm#page=1&query=programming%20background&position=30');
+   background-image: url(about-pic.png);
    background-size: cover;
    background-repeat: no-repeat;
    border-top: solid 1em #FFCF33;
@@ -167,7 +167,7 @@ section > h1 {
 
 .masthead {
    padding: 6em 0;
-   background-image: url('https://i.imgur.com/yGmrlyg.jpg');
+   background-image: url('about-pic.png');
    background-size: cover;
    background-repeat: no-repeat;
    border-top: solid 1em #FFCF33;
