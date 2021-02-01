@@ -100,7 +100,7 @@ header  ul li{
 
 .masthead {
    padding: 6em 0;
-   background-image: url(about-pic.png);
+   background-image:none;
    background-size: cover;
    background-repeat: no-repeat;
    border-top: solid 1em #FFCF33;
