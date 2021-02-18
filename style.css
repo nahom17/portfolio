@@ -299,24 +299,39 @@ input,select,textarea{
 /*style for projects*/
 legend{
     color: white;
-    font-size: bold;
+    font-size: large;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
-.projects{
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:5px;
+    padding: 2px;
+}
+
+.grid-container > div {
+    background-color:black;
+    border: 1px solid lightskyblue;
+    border-radius:1pc;
+    text-align: center;
+    font-size: 15px;
+}
+.grid-container{
     margin:2%;
     padding: 3%;
 }
-.projects ul li a {
+.grid-container ul li a {
     list-style-type:none;
     text-decoration: none;
     color:cyan;
 }
-.projects ul li a:hover{
-    color:green;
+.grid-container ul li a:hover{
+    color:lightskyblue;
 }
-.projects ul li a:active{
+.grid-container ul li a:active{
     color:red;
 }
-.projects ul li a:focus{
+.grid-container ul li a:focus{
     color: yellow;
 }
 footer{
@@ -461,6 +476,43 @@ p{
     legend{
         color: white;
         font-size: bold;
+	    legend{
+    color: white;
+    font-size: large;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap:5px;
+    padding: 2px;
+}
+
+.grid-container > div {
+    background-color:black;
+    border: 1px solid lightskyblue;
+    border-radius:1pc;
+    text-align: center;
+    font-size: 15px;
+}
+.grid-container{
+    margin:2%;
+    padding: 3%;
+}
+.grid-container ul li a {
+    list-style-type:none;
+    text-decoration: none;
+    color:cyan;
+}
+.grid-container ul li a:hover{
+    color:lightskyblue;
+}
+.grid-container ul li a:active{
+    color:red;
+}
+.grid-container ul li a:focus{
+    color: yellow;
+}
     }
     .gallery {
         background-color:unset;
@@ -582,6 +634,43 @@ p{
     legend{
         color: white;
         font-size: bold;
+	    legend{
+    color: white;
+    font-size: large;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap:5px;
+    padding: 2px;
+}
+
+.grid-container > div {
+    background-color:black;
+    border: 1px solid lightskyblue;
+    border-radius:1pc;
+    text-align: center;
+    font-size: 15px;
+}
+.grid-container{
+    margin:2%;
+    padding: 3%;
+}
+.grid-container ul li a {
+    list-style-type:none;
+    text-decoration: none;
+    color:cyan;
+}
+.grid-container ul li a:hover{
+    color:lightskyblue;
+}
+.grid-container ul li a:active{
+    color:red;
+}
+.grid-container ul li a:focus{
+    color: yellow;
+}
     }
 	video{
 		width:300px;
