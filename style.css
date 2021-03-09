@@ -165,7 +165,7 @@ section > h1 {
 
 .masthead {
    padding: 6em 0;
-   background-image: url('https://i.imgur.com/yGmrlyg.jpg');
+   background-image: url('../images/about-pic.png');
    background-size: cover;
    background-repeat: no-repeat;
    border-top: solid 1em #FFCF33;
@@ -392,9 +392,13 @@ p{
     margin: 30px 0;
     border-radius: 30px;
 }
-/*small screen style max -width:600px*/
+/*small screen style max -width:700px*/
 @media only screen and (max-width: 600px)
+
 {
+	html{
+		width:100%;
+	}
     .logo{
         letter-spacing: 2px;
         font-size: 20px;
