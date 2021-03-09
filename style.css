@@ -397,7 +397,7 @@ p{
 
 {
 	html{
-		width:100%;
+		width:50%;
 	}
     .logo{
         letter-spacing: 2px;
@@ -455,10 +455,11 @@ p{
     }
     /*style for projects*/
     .grid-container {
+	width:50%;
         display: grid;
         grid-template-columns: auto;
         grid-gap: 5px;
-        padding: 2px;
+        padding: 1px;
     }
     legend{
         color: white;
